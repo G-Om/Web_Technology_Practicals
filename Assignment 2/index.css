@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+    height: auto !important;
+}
+
+
+
+.square{
+    width: 47vw;
+    height: 100vh;
+    position: absolute;
+    right: -10rem;
+    /* transform: rotate(25deg); */
+    transform: skew(-20deg);
+    background-color: #ff8409;
+    z-index: -1;
+    overflow: hidden;
+}
+
+
+header{
+    width: 100vw;
+    height: 15vh;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+   
+
+
+}
+.name{
+    position: absolute;
+    left: 9rem;
+    top: 1.4rem;
+    font-size: 2rem;
+    font-family: 'Secular One', sans-serif;
+    background: linear-gradient(#ff5e00 0%, #ffb700 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ff5e00;
+    overflow: hidden;
+}
+
+.logo{
+    position: relative;
+    top: 10px;
+}
+.bo{
+  font-size: 3rem;
+}
+
+
+nav{
+    position: relative;
+    right: 2rem;
+    overflow: hidden;
+}
+
+
+nav ul li{
+    width: 9rem;
+    height: 3vh;
+    display: inline-flex;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder !important;
+    z-index: 111;
+    color: white;
+    overflow: hidden;
+}
+
+.links:nth-child(1){
+    color: black !important;
+}
+.links:nth-child(1)::after{
+    
+    content: ' ';
+    position: absolute;
+    bottom: -2px;
+    width: 2.5rem;
+    height: 6px;
+    background-color: orange;
+    z-index: 9;
+}
+
+
+.contain1{
+    width: 100vw;
+    height: 75vh;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    /* background-color: black; */
+}
+
+.left{
+    display: inline-flex;
+    
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 4rem;
+    letter-spacing: 3px;
+    /* color: #ffb700; */
+    font-family: 'Secular One', sans-serif;
+    font-weight: bolder;
+    color: #170c09;
+    overflow: hidden;
+    /* line-height: 1px; */
+}
+
+.txtt{
+    position: relative;
+    left: 2rem;
+    width: 50vw;
+    display: inline-flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.right{
+    width: 38vw;
+    height: 80vh;
+    background-image: url('Images/2-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-color: contain;
+    background-position: center;
+    overflow: hidden;
+}
+
+.namee{
+    font-size: 3.8rem;
+    letter-spacing: 3px;
+    font-family: 'Secular One', sans-serif;
+    position: relative;
+    top: -3rem;
+    color: #ff5e00;
+    overflow: hidden;
+}
+.boo{
+    font-size: 6rem;
+}
+
+.searchBox{
+    position:relative;
+    top: -3rem;
+    left: -11rem;
+}
+
+.searchb{
+    width: 20rem;
+    height: 3rem;
+    border: 2px solid #ffb700;
+    border-radius: 1rem;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.img1{
+    width: 3rem;
+    height: 3rem;
+    background-image: url('Images/4996973-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+}
+
+
+.homeBottom{
+    width: 100vw;
+    height: 14vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 111;
+    /* background-color: black; */
+    position: relative;
+    top: -1rem;
+
+}
+
+.brgerImg{
+    width: 12rem;
+    height: 6rem;
+    background-image: url('Images/burger.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 0px;
+    
+}
+
+.textBottom{
+    position: absolute;
+    right: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.9rem;
+    color: rgb(57, 57, 57);
+    overflow: hidden;
+}
+
+.container2{
+    width: 100vw;
+    height: 120vh;
+    position:relative;
+    top: -2rem;
+    overflow: hidden;
+}
+
+.img2{
+position: relative;
+top: -4px;
+
+}
+
+.card-container{
+    width: 90vw;
+    height: 70vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: -12rem;
+}
+
+
+.cards{
+    width: 17rem;
+    height: 26rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+     rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.im{
+    width: 100%;
+    height: 70%;
+    background-color: #ffdf6a; 
+}
+
+.im-one{
+    width: 24rem;
+    height: 24rem;
+    background-image: 
+    url('images/burger-png-png-images-yellow-images-12.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+    left:8.5rem;
+    top: 3em;
+}
+.im-two{
+    width: 24rem;
+    height: 24rem;
+    background-image: url('images/burgercard.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -2rem;
+    left: 32rem;
+
+}
+.im3{
+    width: 24rem;
+    height: 24rem;
+    background-image: url('images/burger.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 5rem;
+}
+.cardText{
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    /* text-align: center; */
+}
+
+.price{
+    font-family: 'Lato',sans-serif;
+    font-size: 1.8rem;
+}
+
+.btn{
+    width: 100%;
+    height: 10%;
+    border-radius: 0rem 0rem 1rem 1rem;
+    border: transparent 1px solid;
+    background-color: #FF0303;
+    color: white;
+    font-family: 'Comfortaa';
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.img3{
+    position: relative;
+    top: -25rem;
+}
